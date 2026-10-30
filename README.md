@@ -91,6 +91,8 @@ EmDash is the spiritual successor to WordPress: an open-source, full-stack conte
 - [Automated Plugin Releases](https://docs.emdashcms.com/plugins/creating-plugins/delegated-releases/) — Setting up delegated AT Protocol package profiles and GitHub Actions workflows with `emdash-plugin release setup`.
 - [Migrating to the Plugin CLI](https://docs.emdashcms.com/plugins/creating-plugins/migrating-to-the-cli/) — Guide for migrating sandboxed plugins to `@emdash-cms/plugin-cli`, `emdash-plugin.jsonc`, and the `SandboxedPlugin` type.
 - [Upgrading Plugins on Your Site](https://docs.emdashcms.com/plugins/upgrading-sites/) — Operator instructions for updating first-party and third-party plugins to the 1.x default-export convention.
+- [AI Search Plugin](https://docs.emdashcms.com/plugins/ai-search/) — Official guide to adding Cloudflare AI Search to an EmDash site with the first-party AI Search plugin.
+- [Route Caching](https://docs.emdashcms.com/deployment/route-caching/) — Caching rendered pages with Astro route caching, with EmDash invalidating them by tag when content changes.
 
 ---
 
@@ -141,6 +143,9 @@ EmDash is the spiritual successor to WordPress: an open-source, full-stack conte
 - [LLMs.txt Publisher (`@agenticecom.net/llms-txt`)](https://plugins.emdashcms.com/plugins/@agenticecom.net/llms-txt) — Sandboxed registry plugin that generates an `llms.txt` index and companion Markdown pages to help AI agents navigate published site content.
 - [EdgeEver Sync (`@otscup.bsky.social/edgeever-sync`)](https://plugins.emdashcms.com/plugins/@otscup.bsky.social/edgeever-sync) — Synchronizes EdgeEver memos into EmDash blog posts over MCP.
 - [EmDash Preflight (`@jammaru.com/preflight`)](https://plugins.emdashcms.com/plugins/@jammaru.com/preflight) — Enforces deterministic publishing policies across human editors, REST API, MCP, autonomous agents, and scheduled publishes.
+- [Tracy](https://github.com/TracyHQ/tracy) ([Website](https://tracy.ai)) — AI agent that edits running EmDash, WordPress, and Joomla sites through natural language, with diff review and rollback.
+- [emdash-vibe-editor](https://www.npmjs.com/package/emdash-vibe-editor) — Front-end "vibe editing" for EmDash: click text and images on the live site and edit them with AI.
+- [lynx-emdash](https://github.com/realmag777/lynx-emdash) — Bulk content editor and AI-agent tools for EmDash.
 
 ---
 
@@ -153,13 +158,12 @@ EmDash is the spiritual successor to WordPress: an open-source, full-stack conte
 - [emdash_property_web_builder](https://github.com/RealEstateWebTools/emdash_property_web_builder) — Production real-estate website builder and property catalog management CMS.
 - [By the Boys Bakery](https://github.com/jamesqquick/by-the-boys-bakery) — Production micro-bakery storefront built with Astro, EmDash CMS, Tailwind v4, and shadcn on Cloudflare.
 - [engineerlab.jp](https://www.engineerlab.jp) ([Source Code](https://github.com/al17091/blog-emdash)) — Japanese engineering blog running Astro SSR + EmDash with PostgreSQL, deployed via Helm on Kubernetes (K3s).
-- [v5.satooru.me](https://v5.satooru.me) ([Source Code](https://github.com/SatooRu65536/v5.satooru.me)) — Personal profile site built on the official EmDash Cloudflare portfolio template.
+- [v5.satooru.me](https://github.com/SatooRu65536/v5.satooru.me) — Personal profile site built on the official EmDash Cloudflare portfolio template (source only; the live domain is currently offline).
 - [Tony Ciencia](https://github.com/tinychef/tonyciencia-blog) — Official bilingual science and editorial blog running on Astro 6 + EmDash CMS + Cloudflare Workers.
 - [hytech3](https://github.com/hyrorre/hytech3) — Personal tech blog built on the Cloudflare Workers blog template.
 - [sk-personal-website](https://github.com/therealsamyak/sk-personal-website) — Developer portfolio and blog powered by EmDash.
 - [modern-emdash-cms](https://github.com/EngDawood/modern-emdash-cms) — Bilingual Arabic/English portfolio on EmDash, Cloudflare Workers, and the built-in MCP server.
 - [biancafiore.me](https://biancafiore.me) ([Source Code](https://github.com/fbuireu/biancafiore)) — Portfolio and blog of content writer Bianca Fiore running Astro SSR on Cloudflare Workers with EmDash CMS, Turso, Drizzle ORM, and Resend.
-- [nixoncreativestudio.com](https://www.nixoncreativestudio.com) ([Source Code](https://github.com/NateJ45/nixoncreativestudio)) — Production agency website for Nixon Creative Studio built with Astro and EmDash CMS on Cloudflare Workers, D1, and R2.
 - [seanbehan.ca](https://seanbehan.ca) ([Source Code](https://github.com/codebam/seanbehan.ca)) — Personal developer website and blog built with Astro, TypeScript, and EmDash CMS.
 - [theweekendprojects.com](https://theweekendprojects.com) ([Source Code](https://github.com/theweekendprojects/landing-page)) — Official site and blog for The Weekend Projects running on EmDash CMS, Astro, and Cloudflare Workers.
 - [blog.melvinjonesrepol.com](https://blog.melvinjonesrepol.com) ([Source Code](https://github.com/mrepol742/blog)) — Minimal personal engineering blog built with EmDash and deployed on Cloudflare Workers with D1 and R2.
@@ -167,6 +171,10 @@ EmDash is the spiritual successor to WordPress: an open-source, full-stack conte
 - [EmDash Build](https://build.emdashcms.com/) ([Source Code](https://github.com/emdash-cms/emdash-build)) — AI-powered chat website builder running on Cloudflare Agents SDK, Sandboxes, and Workers for Platforms.
 - [Empress](https://tryempress.dev) — Platform for multi-brand entities managing a fleet of EmDash sites with natural language or a conventional CMS admin panel.
 - [EmDash Interactive Playground](https://try.emdashcms.com/) — Ephemeral in-browser sandbox running a live EmDash admin panel for instant evaluation.
+- [jbolabs/sites](https://github.com/jbolabs/sites) — Client marketing sites built with Astro and EmDash on Cloudflare Workers, deployed with Alchemy.
+- [serhiichernenko.com/blog](https://serhiichernenko.com/blog) ([Source Code](https://github.com/serhii-chernenko/portfolio-blog)) — Personal portfolio blog powered by EmDash.
+- [balasto](https://balasto.vercel.app) ([Source Code](https://github.com/vladyn/balasto)) — B2B website built with EmDash and Astro.
+- [yansir-repo/emdash-blog](https://github.com/yansir-repo/emdash-blog) — Chinese B2B-inquiry blog migrated from Next.js to EmDash on Astro and Cloudflare.
 
 ---
 
@@ -198,7 +206,6 @@ Maintained in the [emdash-cms/emdash](https://github.com/emdash-cms/emdash/tree/
 - [Masthead](https://github.com/ondelva/astro-theme-masthead) — Newspaper-style publication and editorial news theme for EmDash and Astro (MIT).
 - [Persona Bio](https://github.com/ahmetcigsar/emdash-theme-persona-bio) — Personal profile, portfolio, and micro-blogging theme for creators (MIT).
 - [star-lite-docs](https://github.com/gruntlord5/star-lite-docs) — Starlight-style technical documentation experience powered by EmDash collections with visual in-browser editing.
-- [Reef 3.1](https://github.com/alohapixelcom-hash/reef) ([Live Demo](https://reef.alohapixel.app)) — Free MIT bilingual (English + French) Astro blog theme with a built-in EmDash back office on Cloudflare Workers, D1, and R2.
 - [terrasuite-emdash](https://github.com/havenswift-hosting/terrasuite-emdash) ([Live Demo](https://emdash.terrasuite.uk)) — Estate agency and real-estate site template for EmDash featuring a property collection, fast filtered search, and agency landing pages.
 - [DashCommerce Starter](https://github.com/emdashCommerce/starter) ([Live Demo](https://demo.dashcommerce.dev)) — Official Astro + EmDash e-commerce storefront starter template for `@dashcommerce/core`.
 - [emdash-theme-omarchy](https://github.com/siygle/emdash-theme-omarchy) — Omarchy-inspired blog theme for EmDash featuring Hyprland tiling window aesthetics, a Waybar top bar, and Omarchy color palettes.
@@ -211,6 +218,11 @@ Maintained in the [emdash-cms/emdash](https://github.com/emdash-cms/emdash/tree/
 - [emdash_property_web_builder](https://github.com/RealEstateWebTools/emdash_property_web_builder) — Real estate website builder and property catalog CMS template.
 - [emdash-templates by Majestic Labs](https://github.com/majesticlabs-dev/emdash-templates) — Collection of modern starter templates for business and agency sites.
 - [compose-cli](https://github.com/Compose-Project/compose-cli) — Command-line scaffolding tool for the Compose blank template.
+- [Baseline](https://github.com/Vermeulen-Solutions/baseline) — Agent-first web starter for Astro and EmDash with a shared fluid design system and "Platform Profiles" for EmDash relational content.
+- [Kexi](https://github.com/AK-103U/kexi) — Modern Cloudflare-native blog theme built on Astro and EmDash (Chinese-language docs).
+- [Holly Template](https://github.com/Whitney-Bateson-Digital-Strategy/Template_Holly-Astro-EmDash_Websites) ([Live Demo](https://template-holly-astro-em-dash-websit.vercel.app)) — Agency website template built on Astro and EmDash.
+- [astro-emdash-local-workshop](https://github.com/pwlee-xyz/astro-emdash-local-workshop) — Local-first Astro and EmDash portfolio starter designed for workshops.
+- [emdash-easy-setup](https://github.com/kwonq10/emdash-easy-setup) — Beginner-oriented Claude Code skill for trying EmDash locally on Windows (Japanese).
 
 ---
 
@@ -237,7 +249,6 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 
 - [emdash-plugin-seo (jdevalk)](https://github.com/jdevalk/emdash-plugin-seo) — Comprehensive Yoast-style SEO suite: Open Graph, Twitter Cards, canonical links, robots rules, and JSON-LD schema.
 - [emdash-plugin-seo (DreamsEngine)](https://github.com/DreamsEngine/emdash-plugin-seo) — AI-assisted SEO analysis tool with on-page optimization recommendations.
-- [emdash-auto-meta](https://github.com/marcusbellamyshaw-cell/emdash-auto-meta) — AI-generated SEO titles, meta descriptions, image alt texts, and automated taxonomy tagging.
 - [emdash-plugin-analytics (MosierData)](https://github.com/MosierData/emdash-plugin-analytics) — Google Tag Manager, GA4, Search Console tracking, UTM attribution, and call tracking.
 - [emdash-plugin-analytics (eisbachcode)](https://github.com/eisbachcode/emdash-plugin-analytics) ([npm](https://www.npmjs.com/package/@eisbachcode/emdash-plugin-analytics)) — Cloudflare Web Analytics on the EmDash dashboard with per-entry view counters and MCP tools.
 - [SerpDelta](https://github.com/SerpDelta/emdash-plugin) — Google Search Console keyword and ranking shift tracking directly in the dashboard.
@@ -264,13 +275,14 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [Dynamic QR (`@nookeshk.bsky.social/dynamic-qr`)](https://plugins.emdashcms.com/plugins/@nookeshk.bsky.social/dynamic-qr) — Generates customizable dynamic QR codes with scan analytics in EmDash.
 - [emdash-seo-core](https://github.com/masonjames/emdash-seo-core) — Lightweight subset-first SEO metadata plugin for EmDash CMS.
 - [statistics-em](https://github.com/6arshid/statistics-em) — Real-time visit analytics plugin tracking daily and historical page view breakdowns.
+- [emdash-umami (tdhftw)](https://github.com/tdhftw/emdash-umami) — Umami analytics dashboard inside the EmDash admin, for self-hosted Umami or Umami Cloud.
+- [jp-search](https://github.com/Ghost3nexus/emdash-jp-search) ([Registry](https://plugins.emdashcms.com/plugins/@tomorrowproof-ai.com/jp-search)) — Japanese bigram site search for Node deployments where built-in FTS5 search cannot run.
 
 ### Email & Notifications
 
 - [emdash-plugin-cloudflare-email](https://github.com/velvee-ai/emdash-plugin-cloudflare-email) — Native Cloudflare Email Routing & Sending using direct Workers bindings (no external API keys).
 - [emdash-plugin-resend](https://github.com/maikunari/emdash-plugin-resend) — Transactional and marketing email delivery via the Resend API.
 - [emdash-plugin-postmark](https://github.com/drudge/emdash-plugin-postmark) — Fast, deliverable transactional email delivery through Postmark.
-- [emdash-plugin-brevo](https://github.com/marcusbellamyshaw-cell/emdash-plugin-brevo) — Transactional email and marketing automation delivery via Brevo (formerly Sendinblue).
 - [emdash-aws-ses](https://github.com/AB6162/emdash-aws-ses) — Amazon Simple Email Service (SES) SMTP transport.
 - [emdash-postal](https://github.com/undefined-charity/emdash-postal) — Integration with self-hosted Postal mail servers for privacy-conscious applications.
 - [emdash-mailing-list](https://github.com/WoofyIO/emdash-mailing-list) — Lightweight newsletter and mailing list management with double opt-in and Markdown broadcasts.
@@ -279,7 +291,7 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [emdash-plugin-twilio-sms](https://github.com/Full-Stack-Tech/emdash-plugin-twilio-sms) — Twilio SMS plugin with broadcast messaging, STOP/opt-out compliance, delivery webhooks, and a form-submission bridge.
 - [emdash-mailerlite](https://github.com/ecommerceave/emdash-mailerlite) ([Registry](https://plugins.emdashcms.com/plugins/@ecommerceave.com/emdash-mailerlite)) — MailerLite integration displaying subscribers, groups, campaign reports, and signup forms in the EmDash dashboard.
 - [emdash-resend-email](https://github.com/vcode-sh/emdash-resend-email) ([npm](https://www.npmjs.com/package/emdash-resend-email), [Registry](https://plugins.emdashcms.com/plugins/@vcode.sh/resend)) — Resend email provider plugin handling magic links, user invites, account recovery, and plugin emails.
-- [Forward Email (`@numoteq.com/forward-email`)](https://github.com/numoteq/emdash-plugins) ([Registry](https://plugins.emdashcms.com/plugins/@numoteq.com/forward-email)) — Transactional email delivery for EmDash via the Forward Email HTTP API.
+- [Forward Email (`@numoteq.com/forward-email`)](https://github.com/numoteq/js-packages) ([Registry](https://plugins.emdashcms.com/plugins/@numoteq.com/forward-email)) — Transactional email delivery for EmDash via the Forward Email HTTP API.
 - [emdash-smtp](https://github.com/masonjames/emdash-smtp) ([npm](https://www.npmjs.com/package/emdash-smtp), [Registry](https://plugins.emdashcms.com/plugins/@masonjames.com/emdash-smtp)) — Full-parity SMTP and transactional email plugin with sender settings, fallback delivery, and private delivery logs.
 - [Bulletin (`@meekmedia.bsky.social/bulletin`)](https://plugins.emdashcms.com/plugins/@meekmedia.bsky.social/bulletin) — Privacy-first newsletter subscriber manager with double opt-in and one-click post-to-email broadcasts.
 - [emdash-discord-notifier](https://github.com/raghuchinnannan/emdash-discord-notifier) ([Registry](https://plugins.emdashcms.com/plugins/@raghuchinnannan.bsky.social/discord-notifier)) — Sends Discord webhook notifications and digests for published posts, comments, media uploads, and form submissions.
@@ -288,12 +300,14 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [emdash-plugin-compass-mail](https://github.com/ecropolis/emdash-plugin-compass-mail) — Email transport plugin delivering EmDash system and form emails through SendGrid or Resend.
 - [emdash-plugin-emailit](https://github.com/dennisklappe/emdash-plugin-emailit) — Transactional email transport plugin powered by Emailit.
 - [WhatsApp Chat Button (`@desidashlab.bsky.social/whatsapp-chat`)](https://plugins.emdashcms.com/plugins/@desidashlab.bsky.social/whatsapp-chat) ([npm](https://www.npmjs.com/package/@sneaps/whatsapp-chat)) — Floating click-to-chat WhatsApp button for EmDash sites.
+- [emdash-resend](https://github.com/creimer808/emdash-resend) — Resend email provider configured from the admin settings page.
+- [emdash-plugin-apimail](https://www.npmjs.com/package/@devbitme/emdash-plugin-apimail) — Transactional email over provider HTTP APIs: Brevo, Mailgun, Mailjet, Maileroo, Postmark, Mailchimp Transactional and more.
+- [emdash-light-smtp](https://github.com/apsulis/emdash-light-smtp) ([npm](https://www.npmjs.com/package/@apsulis/emdash-light-smtp)) — Light, hardened SMTP provider for self-hosted Node.js EmDash with mandatory TLS.
 
 ### Forms, Surveys & CRM
 
 - [emdash-forms-builder](https://github.com/hassantafreshi/emdash-forms-builder) — Drag-and-drop form creator with custom validation rules and field types.
 - [emdash-freeform](https://github.com/solspace/emdash-freeform) — Advanced form creation suite for multi-step workflows.
-- [emdash-contact-forms](https://github.com/masonjames/emdash-contact-forms) — Clean contact form system with Turnstile bot protection.
 - [emdash-inbox](https://github.com/proverbiallemon/emdash-inbox) — Admin mailbox UI for reviewing and responding to form submissions directly in EmDash.
 - [emdash-cloudflare-form](https://github.com/tmyuu/emdash-cloudflare-form) — Contact form handler with Cloudflare Turnstile CAPTCHA and Cloudflare Email transport.
 - [`@gatilab/emdash-core-forms`](https://www.npmjs.com/package/@gatilab/emdash-core-forms) — HTML-first forms plugin (port of WordPress Core Forms) with AJAX and no-JS submission, Turnstile spam protection, email/webhook actions, and a submissions inbox.
@@ -304,6 +318,7 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [Lead Follow-Up Desk (`@agenticecom.net/lead-desk`)](https://plugins.emdashcms.com/plugins/@agenticecom.net/lead-desk) — Lightweight sales CRM inside EmDash for tracking lead ownership, pipeline stages, follow-up dates, and private notes.
 - [`@quickprice/emdash-leads`](https://www.npmjs.com/package/@quickprice/emdash-leads) — Interactive QuickPrice lead capture form block for EmDash sites.
 - [action-pages](https://github.com/adpena/action-pages) ([npm](https://www.npmjs.com/package/@adpena/action-pages)) — Composable campaign action pages (petitions, fundraising, signups, CRM) running edge-native on Cloudflare Workers.
+- [semics Events & E-sign](https://github.com/semics-uk/emdash-plugins) ([Events](https://plugins.emdashcms.com/plugins/@semics.co.uk/semics-events), [E-sign](https://plugins.emdashcms.com/plugins/@semics.co.uk/semics-esign)) — Free MIT event booking and ticketing, plus simple electronic signatures.
 
 ### E-Commerce, Payments & Memberships
 
@@ -315,15 +330,23 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [emdash-paid-access](https://github.com/masonjames/emdash-paid-access) — Stripe memberships and HTTP `x402` pay-per-read content paywall plugin for EmDash with an Astro companion component.
 - [emdash-stripe-checkout](https://github.com/ecommerceave/emdash-stripe-checkout) ([Registry](https://plugins.emdashcms.com/plugins/@ecommerceave.com/emdash-stripe-checkout)) — Turnkey Stripe Checkout payment integration for EmDash stores.
 - [dashcommerce-mercadopago](https://github.com/Jorguitouy/dashcommerce-mercadopago) — Mercado Pago (Checkout Pro) payment gateway provider for DashCommerce supporting Latin American storefronts.
-- [EmDash-MoneroPay](https://github.com/dwightsabeast/EmDash-MoneroPay) — Privacy-focused cryptocurrency payment plugin accepting Monero via MoneroPay.
+- [Coffer (formerly EmDash-MoneroPay)](https://github.com/dwightsabeast/coffer) — Privacy-focused cryptocurrency payment plugin accepting Monero. Work in progress — not yet ready to take real payments.
 - [emdash-kaspa-x402-adapter](https://github.com/KaspaScopio/emdash-kaspa-x402-adapter) — Community HTTP `x402` payment adapter integrating the Kaspa network with EmDash.
 - [emdash-plugin-medusa](https://github.com/BlackSwampAI/emdash-plugin-medusa) — Native EmDash CMS plugin for live Medusa v2 commerce product references.
-- [emdash-plugin-store](https://github.com/marcusbellamyshaw-cell/emdash-plugin-store) — Printful print-on-demand storefront plugin for EmDash CMS with Stripe checkout.
 - [wscommerce](https://github.com/wsagency/wscommerce) — MIT-licensed EmDash commerce plugin on Cloudflare Workers with Stripe, Solo, e-racuni, and a WooCommerce REST compatibility layer.
 - [emCommerce](https://github.com/cdurth/emCommerce) — E-commerce catalog and checkout plugin for EmDash CMS.
 - [emdash-mika](https://github.com/bnomei/emdash-mika) ([npm](https://www.npmjs.com/package/@bnomei/emdash-mika)) — Agent-ready commerce primitives, cart state, digital downloads, and WebMCP storefront tools for EmDash.
 - [DinkusKit Commerce Suite (`dinkus-commerce`, `dinkus-payments`, `inventory`, `coupons`, `bundles`)](https://plugins.emdashcms.com/plugins/@smokyco.bsky.social/dinkus-commerce) ([Payments](https://plugins.emdashcms.com/plugins/@smokyco.bsky.social/dinkus-payments), [Inventory](https://github.com/dinkuskit/inventory), [Coupons](https://github.com/dinkuskit/coupons), [Bundles](https://github.com/dinkuskit/bundles)) — Modular commerce kit for EmDash covering product catalogs, immutable inventory ledgers, BOGO promotions, mix-and-match bundles, and Stripe payments.
 - [Carte](https://github.com/foreztgump/carte) — Restaurant commerce plugin family for EmDash featuring digital menus, table reservations, and Stripe online ordering.
+- [Sella](https://github.com/codelified/Sella) — Shopify-like commerce for EmDash with a native plugin, storefront theme, and one-command scaffolder.
+- [Coldtill Crypto Payments](https://github.com/Coldtill/emdash-crypto-payment-gateway) ([Registry](https://plugins.emdashcms.com/plugins/@coldtill.com/coldtill), [DashCommerce gateway](https://github.com/Coldtill/dashcommerce-crypto-payment-gateway)) — Accepts USDT, USDC, BTC, ETH, SOL and 200+ coins directly to the merchant's own wallets.
+- [emdash-plugin-zarinpal](https://github.com/taleghanidev/emdash-plugin-zarinpal) — Zarinpal (Iran) payment gateway with payment links, server checkout, and verified callbacks on Workers and Node.js.
+- [emdash-plugin-paystack](https://github.com/alexasomba/emdash-plugin-paystack) — Sandboxed Paystack payment plugin for African markets.
+- [emdash-plugin-flutterwave](https://github.com/alexasomba/emdash-plugin-flutterwave) — Sandboxed Flutterwave payment plugin.
+- [Moksa TapPay Payments](https://plugins.emdashcms.com/plugins/@moksaweb.com/moksa-tappay) — TapPay for Taiwan with cards, Apple Pay, Google Pay, Samsung Pay, Taiwan e-wallets, verified notifications, and refunds.
+- [Moksa Subscriptions](https://plugins.emdashcms.com/plugins/@moksaweb.com/moksa-commerce-subscriptions) — Subscription plans on SKUs, renewal orders, dunning, a customer "My subscriptions" area, and MCP tools.
+- [Moksa Order Emails](https://plugins.emdashcms.com/plugins/@moksaweb.com/moksa-commerce-notify) — Order lifecycle emails (confirmation, paid, shipped, pickup-ready, refunds, invoices) with a send log and resend.
+- [emdash-restrict-with-stripe](https://github.com/masonjames/emdash-restrict-with-stripe) — Restricts content and sells access with Stripe.
 
 ### Authentication & Access Control
 
@@ -339,14 +362,16 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [RankShield (`@rankshield/emdash-security`)](https://www.npmjs.com/package/@rankshield/emdash-security) — Behavioral threat defense and hardware-fingerprinting security plugin for EmDash.
 - [plugin-emdash-sensitive-data-leak](https://github.com/sunak-tech/plugin-emdash-sensitive-data-leak) ([npm](https://www.npmjs.com/package/@snack222/plugin-emdash-sensitive-data-leak)) — Scans EmDash content on save for accidentally exposed API keys, tokens, and secrets, surfacing alerts in the admin UI.
 - [emdash-captcha](https://github.com/Dullaz/emdash-captcha) — Pluggable bot-protection and CAPTCHA abstraction plugin for EmDash with first-class Cloudflare Turnstile support.
+- [emdash-nospam](https://github.com/apsulis/emdash-nospam) ([npm](https://www.npmjs.com/package/@apsulis/emdash-nospam)) — CAPTCHA-free form anti-spam using a signed timing token, honeypot, per-IP rate limiting, and content checks, with a dashboard widget.
 
 ### Accessibility & Privacy
 
 - [emdash-plugin-a11y](https://github.com/Full-Stack-Tech/emdash-plugin-a11y) — WCAG 2.2 AA accessibility auditing that reports contrast, structure, and media issues directly in the admin editor.
 - [emdash-plugin-cookie-consent](https://github.com/adrianoamalfi/emdash-plugin-cookie-consent) — Customizable GDPR/CCPA cookie consent banner with category-level opt-in, theming, and an admin settings panel.
 - [Cookie Consent (`@desidashlab.bsky.social/cookie-consent`)](https://plugins.emdashcms.com/plugins/@desidashlab.bsky.social/cookie-consent) — GDPR cookie consent banner with category-level blocking, Google Consent Mode support, and consent audit logging.
-- [EmPrivacy](https://github.com/EmPlugins/EmPrivacy) ([npm](https://www.npmjs.com/package/emprivacy)) — Cookie consent banner, gated third-party embeds, and privacy notices tailored for GDPR, CCPA, and CIPA compliance.
+- [EmPrivacy](https://github.com/EmPlugins/EmPrivacy) ([npm](https://www.npmjs.com/package/@emplugins/emprivacy)) — Cookie consent banner, gated third-party embeds, and privacy notices tailored for GDPR, CCPA, and CIPA compliance.
 - [Image Alt Text Manager (`@agenticecom.net/media-alt-text-queue`)](https://plugins.emdashcms.com/plugins/@agenticecom.net/media-alt-text-queue) — Audits the media library and content entries for images missing alt text and provides a queue for adding accessible descriptions.
+- [accessibility-toolkit](https://github.com/susheel250/accessibility-toolkit) — WCAG 2.2 AA and Section 508 accessibility widget for EmDash.
 
 ### Content, Media & Integrations
 
@@ -387,6 +412,19 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [emdash-rss-aggregator](https://github.com/EngDawood/emdash-rss-aggregator) — RSS/Atom feed importer and aggregator that ingests external feeds as first-class EmDash content entries.
 - [emdash-blocks](https://github.com/bnomei/emdash-blocks) — JSON block-list field widget for EmDash entries with normalized block props and per-block visibility toggles.
 - [emdash-actions](https://github.com/bnomei/emdash-actions) ([npm](https://www.npmjs.com/package/@bnomei/emdash-actions)) — Action buttons and server-side task runner triggers for EmDash fields and admin dashboards.
+- [emdash-plugin-r2-variants](https://github.com/rjstech2020/emdash-plugin-r2-variants) — Resizes each image once, stores variants in R2, and serves them without per-request Worker transforms.
+- [emdash-plugin-r2](https://github.com/azydeco/emdash-plugin-r2) — Sandboxed plugin for browsing and using images from a Cloudflare R2 bucket.
+- [Bluesky To EmDash](https://plugins.emdashcms.com/plugins/@connectobasan.com/bluesky-feed) — Syncs the site owner's Bluesky posts into an EmDash collection.
+- [emdash-popcase](https://github.com/harryxu/emdash-popcase) — Native lightbox for body images and videos.
+- [Emoji Reactions](https://github.com/toya-mimura/emdash-plugin-emoji-reactions) ([Registry](https://plugins.emdashcms.com/plugins/@toya-mimura.bsky.social/reactions)) — Emoji reactions on posts.
+- [emdash-readable-resume](https://github.com/supertj/emdash-readable-resume) — Publishes a resume as a page in ReadableResume's Classic layout.
+- [emdash-Featured-Post](https://github.com/joyce5438/emdash-Featured-Post) — Selects one or more featured posts.
+- [emdash-schema-i18n](https://github.com/NimitzUA/emdash-schema-i18n) — Localizes dynamic schema, collection, and block-type labels in the admin UI.
+- [emdash-author-box](https://github.com/masonjames/emdash-author-box) — Production-ready author box plugin for EmDash CMS.
+- [emdash-table-of-contents](https://github.com/masonjames/emdash-table-of-contents) — Production-ready table of contents plugin with Portable Text and Astro component support.
+- [emdash-social-sharing](https://github.com/masonjames/emdash-social-sharing) — Privacy-light social sharing plugin for EmDash CMS.
+- [emdash-reading-time](https://github.com/masonjames/emdash-reading-time) — Polished, reusable reading-time badge for long-form content via a `readingTime` Portable Text block and Astro component.
+- [emdash-page-list](https://github.com/masonjames/emdash-page-list) — Collection-backed and menu-backed page lists via a `pageList` Portable Text block and Astro component.
 
 ### Page & Visual Builders
 
@@ -395,6 +433,9 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [builderdash](https://github.com/lickybuay/builderdash) — Elementor-inspired native visual page builder plugin for EmDash with live preview, drag-and-drop blocks, and an inspector panel.
 - [emdash-page-builder](https://github.com/undefined-charity/emdash-page-builder) — Word-processor-style inline visual page editor for editing EmDash pages directly in the site's frontend styles.
 - [emdash-bento](https://github.com/bnomei/emdash-bento) ([npm](https://www.npmjs.com/package/@bnomei/emdash-bento)) — Visual Bento grid layout field widget for EmDash JSON fields using Block Builder.
+- [emdash-plugin-site-blocks](https://github.com/Ariadne-Ops/emdash-plugin-site-blocks) — Drupal-style site-wide blocks with region placement.
+- [simple-code-snippets](https://github.com/epictum/emdash-plugin-simple-code-snippets) — Adds JS, CSS, or HTML snippets to `<head>` or before `</body>`, validated on save.
+- [emdash-plugin-code-injection](https://www.npmjs.com/package/@pagelyft/emdash-plugin-code-injection) — Injects site-wide HTML into the head, body start, and body end.
 
 ### Editorial Workflow & Maintenance
 
@@ -406,6 +447,7 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [Link Guardian (`@meekmedia.bsky.social/link-guardian`)](https://plugins.emdashcms.com/plugins/@meekmedia.bsky.social/link-guardian) & [emdash-plugin-content-link-check](https://github.com/eisbachcode/emdash-plugin-content-link-check) — Scheduled link health checkers that flag broken links, redirect chains, and stale URLs in the admin.
 - [Duplicate Media Finder (`@agenticecom.net/duplicate-media-report`)](https://plugins.emdashcms.com/plugins/@agenticecom.net/duplicate-media-report) & [Missing Image Finder (`@agenticecom.net/missing-media-references`)](https://plugins.emdashcms.com/plugins/@agenticecom.net/missing-media-references) — Media library cleanup tools for identifying duplicate uploads and broken media references across entries.
 - [emdash-plugin-content-freshness](https://github.com/eisbachcode/emdash-plugin-content-freshness) — Scheduled content auditor that flags stale entries, missing SEO descriptions, forgotten drafts, and missed schedules.
+- [emdash-simple-history](https://github.com/masonjames/emdash-simple-history) — Focused activity feed recording content create, update, and delete events, surfaced in an admin history page and dashboard widget.
 
 ---
 
@@ -441,6 +483,7 @@ Render interactive UI components inside your Astro templates alongside EmDash co
 - [Portable Text Tooling (`@portabletext/react` / `@portabletext/to-html`)](https://github.com/portabletext/portabletext) — Render EmDash's structured JSON rich-text fields into accessible HTML or styled React components.
 - [Pagefind](https://pagefind.app/) — Client-side search engine providing fast full-text search with zero server overhead.
 - [`@astrojs/mdx`](https://docs.astro.build/en/guides/integrations-guide/mdx/) — Coexist file-based developer-owned documentation/MDX with editor-managed EmDash collections.
+- [relatinator](https://github.com/DBozhinovski/relatinator) — TF-IDF/BM25 related-content finder for Astro content collections.
 
 ---
 
@@ -461,6 +504,9 @@ Render interactive UI components inside your Astro templates alongside EmDash co
 - [emdash-plugin-github-backup](https://github.com/dennisklappe/emdash-plugin-github-backup) — Backs up collection content to a GitHub repository on every edit for file-based Git versioning.
 - [GitHub Sync (`@inari.diy/github-sync`)](https://plugins.emdashcms.com/plugins/@inari.diy/github-sync) — Bi-directional GitHub repository synchronization that commits EmDash content changes as Markdown and syncs `git push` updates back.
 - [emdash-plugin-deploy-trigger](https://github.com/leCielEtoile/emdash-plugin-deploy-trigger) — Triggers Cloudflare Pages deploy hooks on a configurable schedule from EmDash.
+- [emdash-bot](https://github.com/emdash-cms/emdash-bot) — Official service that authors EmDash issues and pull requests, built on Pi Durable and Cloudflare.
+- [emdash-8am](https://github.com/8amscott/emdash-8am) — 8AM Creative's toolkit with an admin plugin, Astro integration, shared components, and content sync.
+- [DrDustinEdwards/astro](https://github.com/DrDustinEdwards/astro) — Astro and EmDash packages, including Enarratio charts.
 
 ---
 
@@ -482,10 +528,11 @@ Render interactive UI components inside your Astro templates alongside EmDash co
 
 ### Docker & Containerized
 
-- [emdash-docker (MarianSEO)](https://github.com/MarianSEO/emdash-docker) — Production-ready Docker Compose stack running EmDash with automated SQLite backups.
+- [emdash-docker (mariandenys)](https://github.com/mariandenys/emdash-docker) — Minimal Docker Compose setup that spins up a full local EmDash blog in three commands.
 - [emdash-docker (rubengmez)](https://github.com/rubengmez/emdash-docker) — Multi-architecture OCI images automatically rebuilt against upstream EmDash releases.
 - [docker-emdash (jstgnkl)](https://github.com/jstgnkl/docker-emdash) — Clean Dockerfile configuration for building self-hosted EmDash images.
 - [EmdashDeploy](https://github.com/web-casa/EmdashDeploy) — Interactive VPS deployment script featuring automated Docker setup, Caddy reverse proxy, and backup utilities.
+- [emdash-panel](https://github.com/bitdoze/emdash-panel) — Open-source (MIT) single-VPS hosting panel for EmDash with multi-site management, HTTPS, backups, metrics, and deployments.
 
 ---
 
@@ -503,7 +550,6 @@ Render interactive UI components inside your Astro templates alongside EmDash co
 ### Migration Tools
 
 - [wp-emdash](https://github.com/emdash-cms/wp-emdash) — Official companion WordPress plugin to export posts, pages, users, media, and taxonomies into EmDash seed format.
-- [wp2emdash](https://github.com/sibukixxx/wp2emdash) — Community WordPress export converter and Unix-philosophy CLI orchestrator producing ready-to-import EmDash collections.
 - [`@emdash-cms/gutenberg-to-portable-text`](https://www.npmjs.com/package/@emdash-cms/gutenberg-to-portable-text) — Official AST parser converting WordPress Gutenberg blocks into Portable Text JSON.
 - [hatena-to-emdash](https://github.com/ochanuco/hatena-to-emdash) — CLI tool to convert Hatena Blog Movable Type exports into EmDash-ready Markdown.
 - [emdash-mt-import](https://github.com/kennyg/emdash-mt-import) — CLI importer translating standard Movable Type blog archives into EmDash seed JSON.
@@ -534,12 +580,31 @@ Render interactive UI components inside your Astro templates alongside EmDash co
 - [How EmDash uses Clef to moderate the plugin registry (EmDash Blog, Oct 7, 2026)](https://emdashcms.com/blog/how-emdash-uses-clef-to-moderate-the-plugin-registry) — Deep dive by Scott Buscemi on how EmDash's AT Protocol labeler uses Cloudflare's multimodal Clef decision model to screen plugin metadata, links, icons, and screenshots in 1.64s at p95.
 - [EmDash 1.2: a redesigned editor, video blocks and domain moves (EmDash Blog, Oct 7, 2026)](https://emdashcms.com/blog/emdash-1-2) — Official 1.2 release notes by Matt Kane covering the frameless content editor, native `/video` Portable Text blocks with HTTP `206 Partial Content` byte-range streaming, numbered collection pagination, admin domain migration flow, 11+ new/updated admin locales, and the `upgrade-emdash` CLI.
 - [EmDash 1.1: publishing calendar, richer embeds and faster sites (EmDash Blog, Oct 2, 2026)](https://emdashcms.com/blog/emdash-1-1) — Official 1.1 release announcement by Matt Kane introducing the Month/Agenda publishing calendar, isolated iframe HTML/CSS/JS blocks, `/iframe` embeds, Microsoft Entra ID OAuth provider, and the experimental `WebMcpSearch` browser-agent component.
+- [EmDash 1.3: readable revision history and a better inline editor (EmDash Blog, Oct 15, 2026)](https://emdashcms.com/blog/emdash-1-3) — Release notes by Matt Kane. Saved revisions open with highlighted diffs and author attribution, and a new SEO setting asks AI crawlers not to train on the site. The on-page editor gains the admin toolbar, slash menu and image picker. Also covers fewer D1 round trips, contributor draft editing, and better WordPress imports.
+- [EmDash 1.4: fewer lost edits and many small refinements (EmDash Blog, Oct 29, 2026)](https://emdashcms.com/blog/emdash-1-4) — Refinement release by Noah Pham with 75 changes from 22 contributors. Edits now save on leaving the editor, conflicting saves are detected, and D1 menu saves are atomic. Adds the `admin.hiddenNavItems` option, full Simplified Chinese, Brazilian Portuguese and Turkish admin translations, fewer DB queries, and a new first-party AI Search plugin.
 
 ### Community & Industry Analyses
 
 - [EmDash CMS by Cloudflare — The Open-Source TypeScript Successor to WordPress (WP Poland, 2026)](https://wppoland.com/en/emdash-cloudflare-open-source-cms-wordpress-successor-2026/) — Architectural deep-dive comparing WordPress security vulnerabilities with EmDash's modern model.
 - [EmDash CMS vs WordPress: An Honest Benchmark (SHIFT64, 2026)](https://shift64.com/blog/emdash-cms-vs-wordpress-honest-benchmark) ([Benchmark Suite](https://github.com/mateusz-zadorozny/shift64-emdash-cms-benchmark)) — Empirical comparison with 4,732 measurements covering latency, TTFB, memory usage, and throughput of EmDash on Cloudflare Workers versus WordPress on a VPS.
-- [6 Reasons Why Cloudflare's EmDash Can't Compete With WordPress (Search Engine Journal, April 2026)](https://www.searchenginejournal.com/reasons-cloudflare-emdash-cant-compete-wordpress/543165/) — Roger Montti's analysis of EmDash's early developer-centric positioning versus WordPress's established consumer ecosystem.
+- [6 Reasons Why Cloudflare's EmDash Can't Compete With WordPress (Search Engine Journal, April 2026)](https://www.searchenginejournal.com/6-reasons-why-cloudflares-emdash-cant-compete-with-wordpress/571053/) — Roger Montti's analysis of EmDash's early developer-centric positioning versus WordPress's established consumer ecosystem.
+- [EmDash 1.0 Challenges WordPress Freedom With Cloudflare Lock-In (Search Engine Journal, Sept 29, 2026)](https://www.searchenginejournal.com/emdash-1-0-challenges-wordpress-freedom-with-cloudflare-lock-in/591378/) — Critique of how closely the 1.0 release depends on Cloudflare infrastructure.
+- [Cloudflare Says EmDash Version 1.0 Is Releasing Soon (Search Engine Journal)](https://www.searchenginejournal.com/cloudflare-says-emdash-version-1-0-is-releasing-soon/586951/) — Pre-launch coverage of the 1.0 roadmap ahead of Birthday Week.
+- [Mullenweg To Cloudflare: Keep WordPress Out Of Your Mouth (Search Engine Journal, April 2026)](https://www.searchenginejournal.com/mullenweg-to-cloudflare-keep-wordpress-out-of-your-mouth/571119/) — Matt Mullenweg's response to EmDash's "spiritual successor to WordPress" positioning.
+- [Cloudflare EmDash 1.0 Launches Decentralized Plugin Registry (CMSWire, Sept 30, 2026)](https://www.cmswire.com/digital-experience/cloudflare-releases-emdash-1-0-cms-with-decentralized-plugin-registry/) — Trade coverage of the 1.0 stable release and the AT Protocol plugin registry.
+- [Cloudflare Introduces EmDash: TypeScript CMS Positioned as WordPress Successor (InfoQ, April 2026)](https://www.infoq.com/news/2026/04/cloudflare-emdash-wordpress/) — Engineering-focused news analysis of EmDash's architecture and sandboxed plugin model.
+- [Inside Cloudflare's plan to position EmDash as a next-generation successor to WordPress (TechRadar, Apr 8, 2026)](https://www.techradar.com/pro/a-more-secure-scalable-platform-that-runs-on-modern-infrastructure-and-supports-ai-native-workflows-why-cloudflares-new-emdash-is-the-spiritual-successor-to-wordpress) — Interview-driven feature on EmDash's security, scalability, and AI-native goals.
+- ['I think EmDash was created to sell more Cloudflare services' (TechRadar, Apr 3, 2026)](https://www.techradar.com/pro/i-think-emdash-was-created-to-sell-more-cloudflare-services-wordpress-co-founder-matt-mullenweg-gives-his-verdict-on-cloudflares-emdash) — Matt Mullenweg's verdict on EmDash.
+- [Cloudflare's new CMS is not a WordPress killer, it's a WordPress alternative (CSO Online, Apr 2, 2026)](https://www.csoonline.com/article/4154115/cloudflares-new-cms-is-not-a-wordpress-killer-its-a-wordpress-alternative-2.html) — Security-industry take on the sandboxed plugin model.
+- [Cloudflare's EmDash CMS sparks fight with WordPress founder Mullenweg (PPC Land, Apr 5, 2026)](https://ppc.land/cloudflares-emdash-cms-sparks-fight-with-wordpress-founder-mullenweg/) — Recap of the EmDash/WordPress positioning dispute.
+- [EmDash CMS Review (2026): Cloudflare's WordPress Successor (Bitdoze, Sept 29, 2026)](https://www.bitdoze.com/emdash-cms-review/) — Review written six months in, after 1.0. Compares Cloudflare and self-hosted VPS deployment and covers operational footguns and who EmDash suits.
+- [EmDash CMS review: enterprise fit vs Payload (wayf.ai, Sept 2026)](https://wayf.ai/blog/emdash-cms-review/) — Enterprise-focused comparison with Payload covering multitenancy gaps and encrypted plugin secrets.
+- [EmDash CMS Review: We Migrated a Real WordPress Site (BAM Web Dev, Apr 2026)](https://bamwebdev.com/blog/emdash-wordpress-migration/) — Field report on migrating a production WordPress site. Custom post types became collections, but the plugin ecosystem gaps remain.
+- [EmDash: a fresh take on CMS (Maciek Palmowski, Apr 2026)](https://maciekpalmowski.dev/blog/emdash-a-fresh-take-on-cms/) — Developer perspective on where EmDash beats, and loses to, plain Markdown content.
+- [EmDash CMS review: Cloudflare vs WordPress? (WPJohnny, Apr 2026)](https://wpjohnny.com/emdash-cms-review-cloudflare-vs-wordpress/) — WordPress performance consultant's assessment of EmDash.
+- [EmDash CMS: What Agencies Should Know (WP Umbrella, Apr 2026)](https://wp-umbrella.com/blog/emdash-launched/) — Agency-oriented briefing on EmDash's launch and its implications for WordPress maintenance businesses.
+- [Cloudflare EmDash CMS: An Honest WordPress Take (Ben Ryan, Apr 2026)](https://benryan.com.au/blog/cloudflare-emdash-wordpress-alternative) — Australian agency's hands-on look at the April beta.
+- [emdash CMS Review (2026): Honest Take (Gautam Khorana, May 2026)](https://gautamkhorana.com/blog/emdash-cms-honest-review-2026/) — What works and what doesn't in EmDash's AI-first, sandboxed-plugin design.
 
 ### Tutorials & Courses
 
@@ -547,6 +612,8 @@ Render interactive UI components inside your Astro templates alongside EmDash co
 - [EmDash Getting Started: Build a Custom Collection and Render It in Astro (FounderMag, Oct 2026)](https://foundermag.co/tutorials/emdash-getting-started-custom-collection/) — Hands-on tutorial by Marcus Webb walking through EmDash 1.0+, custom CLI collection creation, `getEmDashCollection()` rendering, and Claude Code MCP OAuth setup.
 - [EmDash CMS Tutorial: Build Your First Site (Bitdoze, Sept 29, 2026)](https://www.bitdoze.com/emdash-cms-tutorial/) — Multi-part practical guide to scaffolding, configuring, and querying an EmDash 1.0+ site locally with SQLite before deploying to Cloudflare Workers or Docker.
 - [Build Your First EmDash Website: Complete Tutorial (Dashstro, 2026)](https://dashstro.com/learn/build-first-emdash-website) — End-to-end walkthrough of building a site with `npm create emdash@latest`, defining `seed.json`, and deploying to Cloudflare.
+- [EmDash CMS: From First Look to Production (Bitdoze Video Course)](https://www.bitdoze.com/courses/emdash-cms/) — Free 5-lesson beginner course covering a hands-on review, AI-agent-built themes, free Cloudflare Workers deployment, email sending, and Docker benchmarks.
+- [EmDash CMS deployment on Hetzner VPS (Node.js): First try (DEV, Oct 15, 2026)](https://dev.to/mandrasch/quick-test-of-emdash-cms-deployment-on-hetzner-vps-nodejs-518e) ([Source Code](https://github.com/mandrasch/emdash-demo-marketing-starter)) — Walkthrough of self-hosting the EmDash marketing starter on a Hetzner VPS with Node.js.
 
 ### Video Walkthroughs & Interviews
 
