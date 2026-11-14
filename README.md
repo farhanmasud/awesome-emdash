@@ -293,6 +293,7 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [AI Visibility Checker](https://github.com/meelis545/qqq-emdash-ai-visibility) — Checks whether ChatGPT, Gemini, Claude, and Perplexity crawlers can read the site.
 - [Japanese SEO Checker](https://plugins.emdashcms.com/plugins/@100xmarketing.jp/seo-ja-checker) — On-save SEO checks tuned for Japanese content.
 - [Motoyomi](https://github.com/LLL-development/motoyomi) ([Registry](https://plugins.emdashcms.com/plugins/@mrhandsome39.bsky.social/motoyomi)) — Local Japanese internal-link and related-article suggestions, with no external AI. The same publisher (LLL) has ~14 more small bilingual registry tools: heading review, image-alt review, URL-migration audit, redirect-map review, scheduled unpublish, RSS feed, and more.
+- [Analytics & Cookies (`@moorage/plugin-analytics`)](https://github.com/moorage-dev/moorage/tree/main/packages/plugin-analytics) ([npm](https://www.npmjs.com/package/@moorage/plugin-analytics)) — GA4, GTM, Meta Pixel, Clarity, LinkedIn, TikTok, Plausible and Umami by ID, held back by a cookie banner (seven languages, Consent Mode v2) until the visitor agrees.
 
 ### Email & Notifications
 
@@ -343,6 +344,7 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [Contact Forms (Mason James)](https://plugins.emdashcms.com/plugins/@masonjames.com/contact-forms) — Field builder, submission inbox, CSV export, and notifications.
 - [Forms (alpineux)](https://plugins.emdashcms.com/plugins/@alpineux.bsky.social/forms) — Admin-built or custom contact forms with email delivery and stored messages.
 - [emdash-plugin-contact-form (murai-sketch)](https://github.com/murai-sketch/emdash-plugin-contact-form) — Sandboxed Japanese contact form with spam defense, storage, notifications, auto-replies, and retention cleanup.
+- [Lead Delivery (`@moorage.dev/lead-delivery`)](https://github.com/moorage-dev/moorage/tree/main/packages/plugin-lead-delivery) ([Registry](https://plugins.emdashcms.com/plugins/@moorage.dev/lead-delivery)) — Sends official Forms enquiries to email, HubSpot, Slack, Discord or a signed webhook (Zapier, Make, n8n), with a delivery log, retries and failure alerts.
 
 ### E-Commerce, Payments & Memberships
 
@@ -479,6 +481,7 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [DesiDashLab plugin pack](https://github.com/desidashlab) — Four MIT plugins from the DesiDashLab team: [Announcement Bar](https://plugins.emdashcms.com/plugins/@desidashlab.bsky.social/announcement-bar), [Header & Footer Code](https://plugins.emdashcms.com/plugins/@desidashlab.bsky.social/header-footer-code), [Share Buttons](https://plugins.emdashcms.com/plugins/@desidashlab.bsky.social/share-buttons), and [Table of Contents](https://plugins.emdashcms.com/plugins/@desidashlab.bsky.social/table-of-contents).
 - [Scripts Manager](https://github.com/gatilab/emdash-scripts-manager) — Per-entry and site-wide custom CSS, JS, head HTML, and footer HTML.
 - [Site Notice](https://github.com/raphaelApard/emdash-plugin-site-notice) — Scheduled Markdown announcement banner, editable from the admin and through MCP.
+- [Popups (`@moorage/plugin-popups`)](https://github.com/moorage-dev/moorage/tree/main/packages/plugin-popups) ([npm](https://www.npmjs.com/package/@moorage/plugin-popups)) — Top bars, slide-ins, popups and in-page boxes using an official Forms form, at most one per visit, waiting for the cookie banner.
 
 ### Editorial Workflow & Maintenance
 
@@ -495,6 +498,8 @@ Maintained in the [emdash packages/plugins](https://github.com/emdash-cms/emdash
 - [Automations (HandyPlugins)](https://github.com/HandyPlugins/emdash-automations) ([Registry](https://plugins.emdashcms.com/plugins/@handyplugins.co/automations)) — Trigger and action automations.
 - [Auto Unpublish Posts (Peachfin)](https://plugins.emdashcms.com/plugins/@peachfinthemes.com/auto-unpublish-posts) — Unpublishes, trashes, or retags posts on a date, with email alerts.
 - [Preflight (meekmedia)](https://plugins.emdashcms.com/plugins/@meekmedia.bsky.social/preflight) — Pre-publish checklist that blocks or warns on short posts, missing excerpts, and missing alt text.
+- [Content Approval (`@moorage.dev/approvals`)](https://github.com/moorage-dev/moorage/tree/main/packages/plugin-approvals) ([Registry](https://plugins.emdashcms.com/plugins/@moorage.dev/approvals)) — Publish becomes a request a second person approves or sends back with a note, including changes made over MCP.
+- [Site Health & Broken Links (`@moorage.dev/site-health`)](https://github.com/moorage-dev/moorage/tree/main/packages/plugin-site-health) ([Registry](https://plugins.emdashcms.com/plugins/@moorage.dev/site-health)) — Broken link checker for pages, menus and outbound links, with email alerts and a setup checklist.
 
 ---
 
