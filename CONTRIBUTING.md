@@ -4,6 +4,8 @@ Thank you for your interest in contributing to **Awesome EmDash**! We welcome al
 
 Please take a few moments to review these guidelines before submitting a pull request.
 
+Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
+
 ---
 
 ## Guidelines for Inclusion
@@ -15,8 +17,9 @@ To maintain high quality across this list, resources should meet the following c
 2. **Quality & Maintenance**: Repositories should have a clear README, installation instructions, and an open-source license. Deprecated or broken projects will be removed.
 3. **Format Consistency**: Follow the standardized markdown link format:
    ```markdown
-   - [Item Name](https://github.com/user/repo) — Concise, third-person description highlighting key capabilities.
+   - [Item Name](https://github.com/user/repo) - Concise, third-person description highlighting key capabilities.
    ```
+   Separate the link and the description with a hyphen (` - `), not an em dash. Extra links (registry page, npm, demo) go at the end, after the description: `- [Item Name](https://github.com/user/repo) - Description. ([Registry](https://plugins.emdashcms.com/plugins/@publisher/plugin))`
 4. **Alphabetical / Categorical Order**: Place additions in the most appropriate section in alphabetical order (or under the appropriate subcategory).
 
 ### For Plugins
